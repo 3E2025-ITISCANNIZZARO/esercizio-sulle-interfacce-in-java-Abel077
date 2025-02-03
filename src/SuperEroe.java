@@ -5,7 +5,7 @@ class SuperEroe implements Personaggio {
         this.forzaFisica = 10;
     }
 
-    @Override
+    @Override 
     public void combatti() {
         forzaFisica -= 3; // Ogni combattimento diminuisce la forza di 3
     }
